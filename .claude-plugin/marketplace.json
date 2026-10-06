@@ -1,0 +1,25 @@
+{
+  "name": "kevcooper",
+  "owner": {
+    "name": "Kevin Cooper",
+    "url": "https://github.com/kevcooper"
+  },
+  "metadata": {
+    "description": "Kevin Cooper's Claude Code plugins",
+    "version": "0.1.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "example-plugin",
+      "source": "./plugins/example-plugin",
+      "description": "Starter plugin showing the layout for a command and a skill. Copy it to make a new plugin.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Kevin Cooper"
+      },
+      "category": "development",
+      "keywords": ["example", "template"]
+    }
+  ]
+}

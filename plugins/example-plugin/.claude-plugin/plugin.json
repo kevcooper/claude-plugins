@@ -1,0 +1,10 @@
+{
+  "name": "example-plugin",
+  "description": "Starter plugin showing the layout for a command and a skill. Copy it to make a new plugin.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kevin Cooper"
+  },
+  "repository": "https://github.com/kevcooper/claude-plugins",
+  "license": "MIT"
+}
