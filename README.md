@@ -31,7 +31,7 @@ claude plugin update <plugin-name>@kevcooper
 | Plugin | Description |
 | --- | --- |
 | [cheapshot](https://github.com/kevcooper/cheapshot) | One-shot Claude inference as an MCP tool, cached locally so repeat requests are free. Needs `uv` and a logged-in `claude` CLI. |
-| [redcard](https://github.com/kevcooper/redcard) | Enforce your own OPA (Rego) policies on Claude Code tool calls: red card to block, yellow card to require approval. Needs `opa` and `python3`. |
+| [redcard](https://github.com/kevcooper/redcard) | Run every Claude Code hook event through your own OPA (Rego) policies: block, require approval, approve, keep Claude working, add context, and more. Needs `opa` and `python3`. |
 
 ## Adding a plugin
 
