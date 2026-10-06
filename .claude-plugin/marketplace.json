@@ -6,8 +6,7 @@
   },
   "metadata": {
     "description": "Kevin Cooper's Claude Code plugins",
-    "version": "0.1.0",
-    "pluginRoot": "./plugins"
+    "version": "0.1.0"
   },
   "plugins": [
     {
@@ -27,20 +26,6 @@
         "mcp",
         "inference",
         "cache"
-      ]
-    },
-    {
-      "name": "example-plugin",
-      "source": "./plugins/example-plugin",
-      "description": "Starter plugin showing the layout for a command and a skill. Copy it to make a new plugin.",
-      "version": "0.1.0",
-      "author": {
-        "name": "Kevin Cooper"
-      },
-      "category": "development",
-      "keywords": [
-        "example",
-        "template"
       ]
     }
   ]
