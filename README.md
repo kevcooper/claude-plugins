@@ -19,7 +19,12 @@ Then install any plugin from it:
 /plugin install <plugin-name>@kevcooper
 ```
 
-Run `/plugin marketplace update kevcooper` to pull catalog changes and new plugin versions.
+To update, refresh the catalog and then the plugin, and restart Claude Code:
+
+```
+claude plugin marketplace update kevcooper
+claude plugin update <plugin-name>@kevcooper
+```
 
 ## Plugins
 
