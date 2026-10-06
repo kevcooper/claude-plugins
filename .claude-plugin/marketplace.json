@@ -11,6 +11,25 @@
   },
   "plugins": [
     {
+      "name": "cheapshot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kevcooper/cheapshot.git",
+        "path": "plugins/cheapshot"
+      },
+      "description": "One-shot Claude inference as an MCP tool, cached locally so repeat requests are free.",
+      "author": {
+        "name": "Kevin Cooper"
+      },
+      "homepage": "https://github.com/kevcooper/cheapshot",
+      "category": "development",
+      "keywords": [
+        "mcp",
+        "inference",
+        "cache"
+      ]
+    },
+    {
       "name": "example-plugin",
       "source": "./plugins/example-plugin",
       "description": "Starter plugin showing the layout for a command and a skill. Copy it to make a new plugin.",
@@ -19,7 +38,10 @@
         "name": "Kevin Cooper"
       },
       "category": "development",
-      "keywords": ["example", "template"]
+      "keywords": [
+        "example",
+        "template"
+      ]
     }
   ]
 }

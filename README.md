@@ -22,6 +22,7 @@ Run `/plugin marketplace update kevcooper` to pull new versions.
 
 | Plugin | Description |
 | --- | --- |
+| [cheapshot](https://github.com/kevcooper/cheapshot) | One-shot Claude inference as an MCP tool, cached locally so repeat requests are free. Lives in its own repo. Needs `uv` and a logged-in `claude` CLI. |
 | [example-plugin](plugins/example-plugin) | Starter plugin with one command and one skill. Copy it to make a new plugin. |
 
 ## Layout
@@ -66,6 +67,12 @@ A plugin can also live in its own repo. Point its marketplace entry at it instea
 
 ```json
 { "name": "my-plugin", "source": { "source": "github", "repo": "kevcooper/my-plugin" } }
+```
+
+If the plugin sits in a subdirectory of that repo (like cheapshot), use `git-subdir`:
+
+```json
+{ "name": "cheapshot", "source": { "source": "git-subdir", "url": "https://github.com/kevcooper/cheapshot.git", "path": "plugins/cheapshot" } }
 ```
 
 CI (`.github/workflows/validate.yml`) runs `claude plugin validate` on the marketplace and every plugin for each push and PR.
