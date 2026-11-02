@@ -47,6 +47,27 @@
         "hooks",
         "security"
       ]
+    },
+    {
+      "name": "tdd",
+      "source": {
+        "source": "github",
+        "repo": "kevcooper/threat-driven-development"
+      },
+      "description": "Threat Driven Development: every merge to main carries an AWS Threat Composer threat model change or a justified no-threat-delta declaration. Threats stay red until a mitigation links to a passing check.",
+      "author": {
+        "name": "Kevin Cooper"
+      },
+      "homepage": "https://github.com/kevcooper/threat-driven-development",
+      "category": "security",
+      "keywords": [
+        "threat-modeling",
+        "threat-composer",
+        "stride",
+        "appsec",
+        "hooks",
+        "ci"
+      ]
     }
   ]
 }
